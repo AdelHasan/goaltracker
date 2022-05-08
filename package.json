@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
-  },
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdelHasan/goaltracker.git"
