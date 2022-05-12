@@ -1,6 +1,6 @@
 import axios from "axios";
 
-API_URL = "/api/goals/";
+const API_URL = "/api/goals/";
 
 // Create new goal
 const createGoal = async (goalData, token) => {
@@ -10,7 +10,7 @@ const createGoal = async (goalData, token) => {
     },
   };
 
-  const response = await axios.post(API_URL, config, goalData);
+  const response = await axios.post(API_URL, goalData, config);
 
   return response.data;
 };
